@@ -1,0 +1,773 @@
+****************************************************************************************************
+First Name  Last Name            SSN         Number            Type         Balance   Maturity Date 
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          200.55
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Jane       Eyre      345667890         987654         Savings            2.33
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Huck       Finn      567889012         345678        Checking          123.98
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      John        Doe      123445678         333333        Checking          999.99
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+      Jane        Doe      456789012         389765        Checking          888.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+****************************************************************************************************
+                        Sorted by SSN(Bubble Sort)
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      John        Doe      123445678         333333        Checking          999.99
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Jane       Eyre      345667890         987654         Savings            2.33
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+                     Sorted by SSN(Insertion Sort)
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      John        Doe      123445678         333333        Checking          999.99
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Jane       Eyre      345667890         987654         Savings            2.33
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+                         Sorted by SSN(Quick Sort)
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      John        Doe      123445678         333333        Checking          999.99
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Jane       Eyre      345667890         987654         Savings            2.33
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+                       Sorted by Name(Bubble Sort)
+****************************************************************************************************
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      John        Doe      123445678         333333        Checking          999.99
+      Jane       Eyre      345667890         987654         Savings            2.33
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+                    Sorted by Name(Insertion Sort)
+****************************************************************************************************
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      John        Doe      123445678         333333        Checking          999.99
+      Jane       Eyre      345667890         987654         Savings            2.33
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+                        Sorted by Name(Quick Sort)
+****************************************************************************************************
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      John        Doe      123445678         333333        Checking          999.99
+      Jane       Eyre      345667890         987654         Savings            2.33
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+             Sorted by Account Number(Bubble Sort)
+****************************************************************************************************
+      Jane        Doe      456789012         123123         Savings         8765.43
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      John        Doe      123445678         333333        Checking          999.99
+      Huck       Finn      567889012         345678        Checking          123.98
+      Jane        Doe      456789012         389765        Checking          888.56
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+      Jane       Eyre      345667890         987654         Savings            2.33
+****************************************************************************************************
+          Sorted by Account Number(Insertion Sort)
+****************************************************************************************************
+      Jane        Doe      456789012         123123         Savings         8765.43
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      John        Doe      123445678         333333        Checking          999.99
+      Huck       Finn      567889012         345678        Checking          123.98
+      Jane        Doe      456789012         389765        Checking          888.56
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+      Jane       Eyre      345667890         987654         Savings            2.33
+****************************************************************************************************
+              Sorted by Account Number(Quick Sort)
+****************************************************************************************************
+      Jane        Doe      456789012         123123         Savings         8765.43
+      John        Doe      123445678         123456         Savings          200.55
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      John        Doe      123445678         333333        Checking          999.99
+      Huck       Finn      567889012         345678        Checking          123.98
+      Jane        Doe      456789012         389765        Checking          888.56
+       Jim       Beam      234556789         567890        Checking         1234.56
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+      Jane       Eyre      345667890         987654         Savings            2.33
+****************************************************************************************************
+            Sorted by Account Balance(Bubble Sort)
+****************************************************************************************************
+      Jane       Eyre      345667890         987654         Savings            2.33
+      Huck       Finn      567889012         345678        Checking          123.98
+      John        Doe      123445678         123456         Savings          200.55
+      Jack     Spratt      678990123         785609         Savings          333.33
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         333333        Checking          999.99
+       Jim       Beam      234556789         567890        Checking         1234.56
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      Jane        Doe      456789012         123123         Savings         8765.43
+****************************************************************************************************
+         Sorted by Account Balance(Insertion Sort)
+****************************************************************************************************
+      Jane       Eyre      345667890         987654         Savings            2.33
+      Huck       Finn      567889012         345678        Checking          123.98
+      John        Doe      123445678         123456         Savings          200.55
+      Jack     Spratt      678990123         785609         Savings          333.33
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         333333        Checking          999.99
+       Jim       Beam      234556789         567890        Checking         1234.56
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      Jane        Doe      456789012         123123         Savings         8765.43
+****************************************************************************************************
+             Sorted by Account Balance(Quick Sort)
+****************************************************************************************************
+      Jane       Eyre      345667890         987654         Savings            2.33
+      Huck       Finn      567889012         345678        Checking          123.98
+      John        Doe      123445678         123456         Savings          200.55
+      Jack     Spratt      678990123         785609         Savings          333.33
+       Tom     Sawyer      356778901         234567              CD          500.00     07/22/2021
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         333333        Checking          999.99
+       Jim       Beam      234556789         567890        Checking         1234.56
+      John        Doe      123445678         222222              CD         5000.00     08/12/2021
+      Jane        Doe      456789012         123123         Savings         8765.43
+
+Total amount in bank: $18592.39
+Total amount in checking accounts: $3247.09
+Total amount in savings accounts: $9845.30
+Total amount in CD accounts: $5500.00
+
+Error: z is an invalid selection -  try again
+
+Error: v is an invalid selection -  try again
+
+Account Number: 123456
+Account Type: Savings
+Transaction Type: Balance Inquiry
+Your Current Balance is: $200.55
+
+
+Account Number: 222222
+Account Type: CD
+Transaction Type: Balance Inquiry
+Your Current Balance is: $5000.00
+
+
+Account Number: 987654
+Account Type: Savings
+Transaction Type: Balance Inquiry
+Your Current Balance is: $2.33
+
+
+Account Number: 999999
+Error: 999999 does not exist
+
+Account Number: 123456
+Account Type: Savings
+Transation Type: Deposit
+Old Balance: $200.55
+Deposit Amount: $100.25
+New Balance: $300.80
+
+
+Account Number: 222222
+Account Type: CD
+Transation Type: Deposit
+Old Balance: $5000.00
+Deposit Amount: $200.55
+New Balance: $5200.55
+Post-Transaction Maturity Date: 04/11/2022
+
+
+Account Number: 222222
+Account Type: CD
+Transaction Type: Deposit
+Error - maturity date not reached
+You cannot make transactions on this account until: 4/11/2022 
+
+
+Account Number: 999999
+Error: 999999 does not exist
+
+Account Number: 123456
+Account Type: Savings
+Error: -75.75 is not a valid amount - try again
+
+Account Number: 333333
+Account Type: Checking
+Transaction Type: Withdrawal
+Old Balance: $999.99
+Withdrawal Amount: $100.25
+New Balance: $899.74
+
+
+Account Number: 999999
+Error: 999999 does not exist
+
+Account Number: 987654
+Account Type: Savings
+Error: -20.0 is not a valid amount - try again
+
+Account Number: 987654
+Account Type: Savings
+Error: Insufficient funds - try again
+Withdrawal Amount: $100.50
+Current Balance: $2.33
+
+
+Account Number: 234567
+Account Type: CD
+Transaction Type: Withdrawal
+Old Balance: $500.00
+Withdrawal Amount: $150.00
+New Balance: $350.00
+Post-Transaction Maturity Date: 04/11/2023
+
+
+Account Number: 234567
+Account Type: CD
+Transaction Type: Withdrawal
+Error - maturity date not reached
+You cannot make transactions on this account until: 4/11/2023 
+
+
+Account Number: 123456
+Account Type: Savings
+Transaction Type: Open Account
+Error: 123456 already exists
+
+Account Number: 555555
+Account Type: Checking
+Transaction Type: Open Account
+Account opened on 10/11/2021
+Initital balance: $0.0
+
+Account Number: 666666
+Account Type: CD
+Transaction Type: Open Account
+Account opened on 10/11/2021
+Initital balance: $1234.56
+Initial Maturity Date: 08/03/2022
+
+Account Number: 777777
+Account Type: Savings
+Transaction Type: Open Account
+Account opened on 10/11/2021
+Initital balance: $0.0
+
+Account Number: 555555
+Account Type: Checking
+Transation Type: Deposit
+Old Balance: $0.00
+Deposit Amount: $99.99
+New Balance: $99.99
+
+
+Account Number: 666666
+Account Type: CD
+Transaction Type: Deposit
+Error - maturity date not reached
+You cannot make transactions on this account until: 8/3/2022 
+
+
+Account Number: 777777
+Account Type: Savings
+Transation Type: Deposit
+Old Balance: $0.00
+Deposit Amount: $400.00
+New Balance: $400.00
+Post-Transaction Maturity Date: 07/11/2022
+
+
+Account Number: 777777
+Account Type: Savings
+Transaction Type: Withdrawal
+Old Balance: $400.00
+Withdrawal Amount: $125.50
+New Balance: $274.50
+
+
+Account Number: 999999
+Error: 999999 does not exist
+
+Account Number: 987654
+AccountType: Savings
+You must have $0 balance to delete your account
+Your current balance is: $2.33
+
+Account Number: 987654
+Account Type: Savings
+Transaction Type: Withdrawal
+Old Balance: $2.33
+Withdrawal Amount: $2.33
+New Balance: $0.00
+
+
+Account Number: 987654
+AccountType: Savings
+Transaction Type: Delete Account
+Account deleted successfully
+
+Transaction Type: Account Info
+
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+
+Transaction Type: Account Info
+
+      Jack     Spratt      678990123         785609         Savings          333.33
+
+Transaction Type: Account Info
+
+     Dolly    Madison      765443210         555555        Checking           99.99
+     Dolly    Madison      765443210         777777         Savings          274.50
+
+No accounts found for 888776666
+
+Transaction Type: Account Info
+
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+
+Account Number: 567890
+Account Type: Checking
+Transaction Type: Clear Check
+Old Balance: $1234.56
+Check Amount: $10.50
+New Balance: $1224.06
+
+
+Account Number: 999999
+Error: 999999 does not exist
+
+Account Number: 567890
+Account Type: Checking
+Transaction Type: Clear Check
+Insufficient funds - bounce fee of $1.50 charged
+Old Balance: $1224.06
+New Balance: $1222.56
+
+
+Account Number: 567890
+Account Type: Checking
+Error: -5.67 is not a valid amount - try again
+
+Account Number: 567890
+Account Type: Checking
+Error: check too old - no checks before: 4/11/2021 may be cashed
+Date of check: 2/22/2021
+
+
+Account Number: 567890
+Account Type: Checking
+Error: check too old - no checks before: 4/11/2021 may be cashed
+Date of check: 3/3/2021
+
+
+Account Number: 123456
+Account Type: Savings
+Error: Post-dated check
+Please cash check on or after: 12/12/2021
+
+Transaction Type: Account Info
+
+       Jim       Beam      234556789         567890        Checking         1222.56
+
+Account Number: 567890
+Account Type: Checking
+Transation Type: Deposit
+Old Balance: $1222.56
+Deposit Amount: $100.00
+New Balance: $1322.56
+
+
+Account Number: 567890
+Account Type: Checking
+Transaction Type: Withdrawal
+Old Balance: $1322.56
+Withdrawal Amount: $20.00
+New Balance: $1302.56
+
+
+Account Number: 567890
+Account Type: Checking
+Transaction Type: Clear Check
+Old Balance: $1302.56
+Check Amount: $30.00
+New Balance: $1272.56
+
+
+Account Number: 567890
+Account Type: Checking
+Transaction Type: Close Account
+Account closed successfully
+
+Transaction Type: Account Info
+
+       Jim       Beam      234556789         567890        Checking         1272.56
+
+Account Number: 567890
+Account Type: Checking
+Error: 567890 is closed - try again
+
+Account Number: 567890
+Account Type: Checking
+Error: 567890 is closed - try again
+
+Account Number: 567890
+Account Type: Checking
+Error: 567890 is closed - try again
+
+Account Number: 567890
+Account Type: Checking
+Transaction Type: Reopen Account
+Account reopened successfully
+
+
+Transaction Type: Account Info
+
+       Jim       Beam      234556789         567890        Checking         1272.56
+
+Account Number: 567890
+Account Type: Checking
+Transation Type: Deposit
+Old Balance: $1272.56
+Deposit Amount: $100.00
+New Balance: $1372.56
+
+
+Account Number: 567890
+Account Type: Checking
+Transaction Type: Withdrawal
+Old Balance: $1372.56
+Withdrawal Amount: $20.00
+New Balance: $1352.56
+
+
+Account Number: 567890
+Account Type: Checking
+Error: Post-dated check
+Please cash check on or after: 12/11/2021
+
+                        Accounts associated with:  123445678
+
+                               Account Information
+
+      John        Doe      123445678         123456         Savings          300.80
+
+                               Transaction History
+
+      DATE            TYPE    RESULT OLD BALANCE     AMOUNT NEW BALANCE NEW MATURITY DATE
+10/11/2021    Open Account   SUCCESS     200.55       0.00     200.55
+10/11/2021 Balance Inquiry   SUCCESS     200.55       0.00     200.55
+10/11/2021         Deposit   SUCCESS     200.55     100.25     300.80
+10/11/2021         Deposit    FAILED - Invalid amount
+10/11/2021     Clear Check    FAILED - Post-dated check
+                               Account Information
+
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+
+                               Transaction History
+
+      DATE            TYPE    RESULT OLD BALANCE     AMOUNT NEW BALANCE NEW MATURITY DATE
+10/11/2021    Open Account   SUCCESS    5000.00       0.00    5000.00
+10/11/2021 Balance Inquiry   SUCCESS    5000.00       0.00    5000.00
+10/11/2021         Deposit   SUCCESS    5000.00     200.55    5200.55     04/11/2022
+10/11/2021         Deposit    FAILED - Maturity date not reached
+                               Account Information
+
+      John        Doe      123445678         333333        Checking          899.74
+
+                               Transaction History
+
+      DATE            TYPE    RESULT OLD BALANCE     AMOUNT NEW BALANCE NEW MATURITY DATE
+10/11/2021    Open Account   SUCCESS     999.99       0.00     999.99
+10/11/2021      Withdrawal   SUCCESS     999.99     100.25     899.74
+
+                        Accounts associated with:  234556789
+
+                               Account Information
+
+       Jim       Beam      234556789         567890        Checking         1352.56
+
+                               Transaction History
+
+      DATE            TYPE    RESULT OLD BALANCE     AMOUNT NEW BALANCE NEW MATURITY DATE
+10/11/2021    Open Account   SUCCESS    1234.56       0.00    1234.56
+10/11/2021     Clear Check    FAILED - Invalid amount
+10/11/2021     Clear Check    FAILED - Check too old
+10/11/2021     Clear Check    FAILED - Check too old
+10/11/2021         Deposit   SUCCESS    1222.56     100.00    1322.56
+10/11/2021      Withdrawal   SUCCESS    1322.56      20.00    1302.56
+10/11/2021   Close Account   SUCCESS    1272.56       0.00    1272.56
+10/11/2021         Deposit    FAILED - Account closed
+10/11/2021      Withdrawal    FAILED - Account closed
+10/11/2021     Clear Check    FAILED - Account closed
+10/11/2021  Reopen Account   SUCCESS    1272.56       0.00    1272.56
+10/11/2021         Deposit   SUCCESS    1272.56     100.00    1372.56
+10/11/2021      Withdrawal   SUCCESS    1372.56      20.00    1352.56
+10/11/2021     Clear Check    FAILED - Post-dated check
+
+****************************************************************************************************
+First Name  Last Name            SSN         Number            Type         Balance   Maturity Date 
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          300.80
+       Jim       Beam      234556789         567890        Checking         1352.56
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Huck       Finn      567889012         345678        Checking          123.98
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jack     Spratt      678990123         785609         Savings          333.33
+      Jane        Doe      456789012         389765        Checking          888.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+     Dolly    Madison      765443210         555555        Checking           99.99
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+     Dolly    Madison      765443210         777777         Savings          274.50
+****************************************************************************************************
+                        Sorted by SSN(Bubble Sort)
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+       Jim       Beam      234556789         567890        Checking         1352.56
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+      Jack     Spratt      678990123         785609         Savings          333.33
+     Dolly    Madison      765443210         555555        Checking           99.99
+     Dolly    Madison      765443210         777777         Savings          274.50
+****************************************************************************************************
+                     Sorted by SSN(Insertion Sort)
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+       Jim       Beam      234556789         567890        Checking         1352.56
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+      Jack     Spratt      678990123         785609         Savings          333.33
+     Dolly    Madison      765443210         555555        Checking           99.99
+     Dolly    Madison      765443210         777777         Savings          274.50
+****************************************************************************************************
+                         Sorted by SSN(Quick Sort)
+****************************************************************************************************
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+       Jim       Beam      234556789         567890        Checking         1352.56
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+      Jack     Spratt      678990123         785609         Savings          333.33
+     Dolly    Madison      765443210         555555        Checking           99.99
+     Dolly    Madison      765443210         777777         Savings          274.50
+****************************************************************************************************
+                       Sorted by Name(Bubble Sort)
+****************************************************************************************************
+       Jim       Beam      234556789         567890        Checking         1352.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+     Dolly    Madison      765443210         555555        Checking           99.99
+     Dolly    Madison      765443210         777777         Savings          274.50
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+                    Sorted by Name(Insertion Sort)
+****************************************************************************************************
+       Jim       Beam      234556789         567890        Checking         1352.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+     Dolly    Madison      765443210         555555        Checking           99.99
+     Dolly    Madison      765443210         777777         Savings          274.50
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+                        Sorted by Name(Quick Sort)
+****************************************************************************************************
+       Jim       Beam      234556789         567890        Checking         1352.56
+      Jane        Doe      456789012         123123         Savings         8765.43
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      John        Doe      123445678         333333        Checking          899.74
+      Huck       Finn      567889012         345678        Checking          123.98
+      Huck       Finn      567889012         654321         Savings          543.66
+     Dolly    Madison      765443210         555555        Checking           99.99
+     Dolly    Madison      765443210         777777         Savings          274.50
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+             Sorted by Account Number(Bubble Sort)
+****************************************************************************************************
+      Jane        Doe      456789012         123123         Savings         8765.43
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      John        Doe      123445678         333333        Checking          899.74
+      Huck       Finn      567889012         345678        Checking          123.98
+      Jane        Doe      456789012         389765        Checking          888.56
+     Dolly    Madison      765443210         555555        Checking           99.99
+       Jim       Beam      234556789         567890        Checking         1352.56
+      Huck       Finn      567889012         654321         Savings          543.66
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+     Dolly    Madison      765443210         777777         Savings          274.50
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+          Sorted by Account Number(Insertion Sort)
+****************************************************************************************************
+      Jane        Doe      456789012         123123         Savings         8765.43
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      John        Doe      123445678         333333        Checking          899.74
+      Huck       Finn      567889012         345678        Checking          123.98
+      Jane        Doe      456789012         389765        Checking          888.56
+     Dolly    Madison      765443210         555555        Checking           99.99
+       Jim       Beam      234556789         567890        Checking         1352.56
+      Huck       Finn      567889012         654321         Savings          543.66
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+     Dolly    Madison      765443210         777777         Savings          274.50
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+              Sorted by Account Number(Quick Sort)
+****************************************************************************************************
+      Jane        Doe      456789012         123123         Savings         8765.43
+      John        Doe      123445678         123456         Savings          300.80
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      John        Doe      123445678         333333        Checking          899.74
+      Huck       Finn      567889012         345678        Checking          123.98
+      Jane        Doe      456789012         389765        Checking          888.56
+     Dolly    Madison      765443210         555555        Checking           99.99
+       Jim       Beam      234556789         567890        Checking         1352.56
+      Huck       Finn      567889012         654321         Savings          543.66
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+     Dolly    Madison      765443210         777777         Savings          274.50
+      Jack     Spratt      678990123         785609         Savings          333.33
+****************************************************************************************************
+            Sorted by Account Balance(Bubble Sort)
+****************************************************************************************************
+     Dolly    Madison      765443210         555555        Checking           99.99
+      Huck       Finn      567889012         345678        Checking          123.98
+     Dolly    Madison      765443210         777777         Savings          274.50
+      John        Doe      123445678         123456         Savings          300.80
+      Jack     Spratt      678990123         785609         Savings          333.33
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         333333        Checking          899.74
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+       Jim       Beam      234556789         567890        Checking         1352.56
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      Jane        Doe      456789012         123123         Savings         8765.43
+****************************************************************************************************
+         Sorted by Account Balance(Insertion Sort)
+****************************************************************************************************
+     Dolly    Madison      765443210         555555        Checking           99.99
+      Huck       Finn      567889012         345678        Checking          123.98
+     Dolly    Madison      765443210         777777         Savings          274.50
+      John        Doe      123445678         123456         Savings          300.80
+      Jack     Spratt      678990123         785609         Savings          333.33
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         333333        Checking          899.74
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+       Jim       Beam      234556789         567890        Checking         1352.56
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      Jane        Doe      456789012         123123         Savings         8765.43
+****************************************************************************************************
+             Sorted by Account Balance(Quick Sort)
+****************************************************************************************************
+     Dolly    Madison      765443210         555555        Checking           99.99
+      Huck       Finn      567889012         345678        Checking          123.98
+     Dolly    Madison      765443210         777777         Savings          274.50
+      John        Doe      123445678         123456         Savings          300.80
+      Jack     Spratt      678990123         785609         Savings          333.33
+       Tom     Sawyer      356778901         234567              CD          350.00     04/11/2023
+      Huck       Finn      567889012         654321         Savings          543.66
+      Jane        Doe      456789012         389765        Checking          888.56
+      John        Doe      123445678         333333        Checking          899.74
+     James    Madison      668990123         666666              CD         1234.56     08/03/2022
+       Jim       Beam      234556789         567890        Checking         1352.56
+      John        Doe      123445678         222222              CD         5200.55     04/11/2022
+      Jane        Doe      456789012         123123         Savings         8765.43
+
+Total amount in bank: $20367.66
+Total amount in checking accounts: $3364.83
+Total amount in savings accounts: $10217.72
+Total amount in CD accounts: $6785.11
+
